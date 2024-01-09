@@ -7,7 +7,7 @@ void kullaniciKaydet(struct Kullanici yeniKullanici) {
         printf("Dosya acilamadi.\n");
         return;
     }
-    fprintf(dosya, "%s %s\n", yeniKullanici.kullaniciAdi, yeniKullanici.sifre);
+    fprintf(dosya, "%s:%s\n", yeniKullanici.kullaniciAdi, yeniKullanici.sifre);
     fclose(dosya);
 }
 
