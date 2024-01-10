@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "fonksiyon.h"
-#define MAX_USERS 10
+#define MAX_USERS 100
 int main() {
     int secim;
     char kullaniciAdi[20];
