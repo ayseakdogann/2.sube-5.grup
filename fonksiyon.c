@@ -25,7 +25,7 @@ int kullaniciGiris(char kullaniciAdi[20], char sifre[20]) {
         }
     }
     fclose(dosya);
-    return 1; // Kullanıcı adı veya şifre yanlış
+    return 0; // Kullanıcı adı veya şifre yanlış
 }
 
 void islemKaydet(struct Islem islem) {
